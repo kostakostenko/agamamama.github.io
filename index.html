@@ -1,0 +1,124 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGAMAMAMA Games</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #111;
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 30px;
+      background: #222;
+    }
+    header img {
+      height: 80px;
+    }
+    h1 {
+      margin: 10px 0;
+      font-size: 2em;
+    }
+    h2 {
+      margin: 20px 0 10px;
+      font-size: 1.5em;
+    }
+    .tagline {
+      font-style: italic;
+      color: #ccc;
+    }
+    .game-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 30px 10px;
+    }
+    .game-card {
+      background: #222;
+      border-radius: 10px;
+      margin: 15px;
+      padding: 15px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+    .game-card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .buttons {
+      margin-top: 10px;
+    }
+    .buttons a {
+      display: inline-block;
+      padding: 8px 15px;
+      margin: 5px;
+      background: #ff6600;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .buttons a:hover {
+      background: #ff3300;
+    }
+    footer {
+      background: #111;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="assets/logo.png" alt="AGAMAMAMA Logo">
+  <h1>AGAMAMAMA</h1>
+  <p class="tagline">Indie Developer of Match-3 and Slot Games</p>
+</header>
+
+<h2>Our Games</h2>
+
+<div class="game-list">
+
+  <!-- Game 1 -->
+  <div class="game-card">
+    <img src="assets/screenshots/frenzycandymania.jpg" alt="Frenzy Candy Mania">
+    <h3>Frenzy Candy Mania</h3>
+    <p>Sweet Match-3 adventure with exciting levels.</p>
+    <div class="buttons">
+      <a href="games/frenzycandymania/index.html" target="_blank">Play Now</a>
+      <a href="https://cafebazaar.ir/app/org.godotengine.frenzycandymania" target="_blank">CafeBazaar</a>
+      <a href="https://kostakostenko277.itch.io/frenzy-candy-mania" target="_blank">Itch.io</a>
+    </div>
+  </div>
+
+  <!-- Game 2 -->
+  <div class="game-card">
+    <img src="assets/screenshots/cherrybanana.jpg" alt="Cherry Banana Diamond">
+    <h3>Cherry Banana Diamond</h3>
+    <p>Classic slot machine with fruits and diamonds.</p>
+    <div class="buttons">
+      <a href="games/cherrybananadiamond/index.html" target="_blank">Play Now</a>
+      <a href="https://cafebazaar.ir/app/org.godotengine.cherrybananadiamond" target="_blank">CafeBazaar</a>
+      <a href="https://kostakostenko277.itch.io/cherrybanana-diamonds" target="_blank">Itch.io</a>
+    </div>
+  </div>
+
+  <!-- Add more games below by copy-pasting game-card -->
+
+</div>
+
+<footer>
+  <p>© 2025 AGAMAMAMA Games. Contact: <a href="mailto:kosta.kostenko277@gmail.com">kosta.kostenko277@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
+
